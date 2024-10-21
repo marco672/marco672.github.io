@@ -10,7 +10,10 @@ body {
 h2 {
     margin-top: 0;
 }
-
+/* Nav */
+.nav-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /* Section Background-image */
 .background-image {
     background-size: cover;
@@ -21,7 +24,6 @@ h2 {
     align-items: center; /* Alinhamento vertical */
     justify-content: center; /* Alinhamento horizontal */
 }
-
 /* Section homepage */
 .homepage {
     text-align: center;
