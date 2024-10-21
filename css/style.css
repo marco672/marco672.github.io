@@ -1,7 +1,7 @@
-/* Estilos básicos */
+/* Basic Styles */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    font-size: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,20 +11,18 @@ h2 {
     margin-top: 0;
 }
 
-/* Background-image */
+/* Section Background-image */
 .background-image {
     background-size: cover;
-    background-position: center; /* Centraliza a imagem */
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh; /* Altura do elemento para preencher a tela */
     display: flex; /* Para centralizar o conteúdo */
     align-items: center; /* Alinhamento vertical */
     justify-content: center; /* Alinhamento horizontal */
-    color: white; /* Cor do texto */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra para o texto */
 }
 
-/* Seção homepage */
+/* Section homepage */
 .homepage {
     text-align: center;
     background-color: #f8f9fa;
@@ -40,7 +38,7 @@ h2 {
     color: #666;
 }
   
-/* Seção About Me */
+/* Section About Me */
 .about-me img {
     max-width: 100%;
     height: auto;
@@ -52,7 +50,7 @@ h2 {
     text-size-adjust: auto;
 }
   
-/* Seção My Trips */
+/* Section My Trips */
 .my-trips img {
     margin-bottom: 20px;
     width: 100%;
@@ -61,7 +59,7 @@ h2 {
     border-radius: 10px;
 }
   
-/* Seção Contact */
+/* Section Contact */
 .contact {
     background-color: #f8f9fa;
     padding: 30px 0;
@@ -75,7 +73,8 @@ h2 {
 .col-md-4 {
     text-align: center;
 }
-/* Botão do WhatsApp */
+
+/* WhatsApp Button */
 .whatsapp-button {
     background-color: #25D366;
     color: white;
@@ -94,16 +93,17 @@ h2 {
     max-width: 100%;
     box-sizing: border-box;
 }
-/* Tamanho do ícone Whatsapp */
+
+/* Size of Whatsapp Button */
 .whatsapp-button i {
     margin-right: 10px;
     font-size: 25px;
 }
-/* Efeito de hover no botão whatsapp: cor mais escura ao passar o mouse*/
+/* Hover effect on whatsapp button: dark collor when put the mouse on the button */
 .whatsapp-button:hover {
     background-color: #1ebe57;
 }
-/* Ajustes responsivos */
+/* Reponsive */
 @media (max-width: 768px) {
 .homepage h1 {
     font-size: 2.5rem;
@@ -111,12 +111,12 @@ h2 {
 .homepage p {
     font-size: 1rem;
 } 
-/* Responsividade das seções */
+/* Responsive sections */
 .about-me .row, .my-trips .row, .contact .row {
       flex-direction: column;
     }
 }
-/* Responsividade - link Whatsapp - para mobile*/
+/* Responsive - Whatsapp link - mobile*/
 @media (max-width: 768px) {
     .whatsapp-button {
         font-size: 16px;  /* Texto menor*/
