@@ -11,7 +11,7 @@ h2 {
     margin-top: 0;
 }
 
-/* Estilos para Background-image*/
+/* Background-image */
 .background-image {
     background-size: cover;
     background-position: center; /* Centraliza a imagem */
@@ -24,7 +24,7 @@ h2 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Sombra para o texto */
 }
 
-/* Estilos para a seção homepage */
+/* Seção homepage */
 .homepage {
     text-align: center;
     background-color: #f8f9fa;
@@ -40,7 +40,7 @@ h2 {
     color: #666;
 }
   
-/* Estilos para About Me */
+/* Seção About Me */
 .about-me img {
     max-width: 100%;
     height: auto;
@@ -51,7 +51,7 @@ h2 {
     text-align: justify;
 }
   
-/* Estilos para My Trips */
+/* Seção My Trips */
 .my-trips img {
     margin-bottom: 20px;
     width: 100%;
@@ -60,7 +60,7 @@ h2 {
     border-radius: 10px;
 }
   
-/* Estilos para Contact */
+/* Seção Contact */
 .contact {
     background-color: #f8f9fa;
     padding: 30px 0;
@@ -74,20 +74,61 @@ h2 {
 .col-md-4 {
     text-align: center;
 }
-
+/* Botão do WhatsApp */
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+/* Tamanho do ícone Whatsapp */
+.whatsapp-button i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+/* Efeito de hover no botão whatsapp: cor mais escura ao passar o mouse*/
+.whatsapp-button:hover {
+    background-color: #1ebe57;
+}
 /* Ajustes responsivos */
 @media (max-width: 768px) {
 .homepage h1 {
     font-size: 2.5rem;
-}
-  
+} 
 .homepage p {
     font-size: 1rem;
-}
-  
-/* Ajustar o layout das seções */
+} 
+/* Responsividade das seções */
 .about-me .row, .my-trips .row, .contact .row {
       flex-direction: column;
     }
 }
-  
+/* Responsividade - link Whatsapp - para mobile*/
+@media (max-width: 768px) {
+    .whatsapp-button {
+        font-size: 16px;  /* Texto menor*/
+        padding: 10px 20px; /* Botão menor*/
+    }
+    .whatsapp-button i {
+            font-size: 20px; /* Ícone ligeiramente menor */
+            margin-right: 8px;
+        }
+}
+@media (max-width: 480px) {
+    .whatsapp-button {
+        width: 100%; /* O botão ocupa toda a largura da tela */
+        text-align: center; /* Centraliza o texto e ícone */
+    }
+}
