@@ -105,6 +105,11 @@ h2 {
 .whatsapp-button:hover {
     background-color: #1ebe57;
 }
+/* Contact - Email - Bootstrap */
+.contact-section {
+    padding: 50px;
+    text-align: center;
+}
 /* Reponsive */
 @media (max-width: 768px) {
 .homepage h1 {
