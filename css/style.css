@@ -49,6 +49,7 @@ h2 {
 
 .about-me {
     text-align: justify;
+    text-size-adjust: auto;
 }
   
 /* Seção My Trips */
